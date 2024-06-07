@@ -1,0 +1,63 @@
+.home-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-article-image{
+    margin-bottom: 20px;
+    height: 10%;
+}
+.home-articles h1{
+    color: brown;
+}
+p{
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.comment-section{
+    border-top: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.comment-section form{
+    margin-bottom: 10px;
+}
+
+.comment-section label{
+    display: block;
+    margin-bottom: 5px;
+}
+.comment-section{
+    margin-bottom: 20px;
+}
+
+.comment-section button{
+    display: block;
+    margin-top: 10px;
+    margin-left: inherit;
+    padding: 0px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.comment-section textarea{
+    width: 100%;
+}
+
+.comment-section input{
+    width: 100%;
+}
+
+.comment-section button:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}

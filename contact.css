@@ -1,0 +1,50 @@
+
+    .contact-content{
+        display: block;
+        /*background-color: rgb(147, 147, 231);*/
+        margin-top: 32px;
+        padding: 9px;
+        position: relative;
+        height: 80vh;
+        height: 395 px;
+        overflow: hidden;
+    }
+    
+    .contact-content::after{
+         content: "";
+         background-image: url("../img/boylaptop.png");
+         position: absolute;
+         top:0;
+         width: 670px;
+         height: inherit;
+         opacity: 0.15;
+         z-index: -1;
+         border-radius: 12px;
+         align-items: center;
+         justify-items: center;
+    }
+
+    .form-box input, textarea{
+        width: 40vw;
+        padding: 10px 7px;
+        margin: 7px;
+    }
+    
+    .contact-form{
+        height:80 vh;
+    }
+
+    .form-box{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .form-box label, .form-box button{
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .form-box button{
+        float: right;
+    }
